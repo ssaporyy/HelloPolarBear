@@ -8,13 +8,18 @@ import Contact from '../Contact/index';
 
 const hello = `Hello`
 const bear = `PolarBear`
-const what = `what`
+const world = `${hello} World`
+const hastag = `#${world} #PolarBear #HelloPolarBear `
+const hastag2 = `#HelloFrontEnd #HelloDesign #HelloGame #HelloInfra`
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-
+      <div>
+        <h1>{hello} {bear}</h1>
+        <p>{hastag}</p>
+        <p>{hastag2}</p>
+        
         <What/>
         
         <Who/>
