@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Who from './Component/Index/Who';
-import Where from './Component/Index/Where';
-import Contact from './Component/Index/Contact';
-import What from './Component/Index/What';
+// import logo from './logo.svg';
+import '../../App.css';
+import What from '../What/Index';
+import Who from '../Who/Index';
 
 const hello = `Hello`
 const bear = `PolarBear`
+const what = `what`
 
 class App extends Component {
   render() {
@@ -15,12 +14,9 @@ class App extends Component {
       <div className="App">
 
         <What/>
-
+        
         <Who/>
-
-        <Where/>
-
-        <Contact/>
+        
       </div>
     );
   }
