@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import '../../App.css';
 import What from '../What/Index';
 import Who from '../Who/Index';
+import Where from '../Where/Index';
+import Contact from '../Contact/index';
 
 const hello = `Hello`
 const bear = `PolarBear`
@@ -16,6 +18,10 @@ class App extends Component {
         <What/>
         
         <Who/>
+
+        <Where/>
+
+        <Contact/>
         
       </div>
     );
