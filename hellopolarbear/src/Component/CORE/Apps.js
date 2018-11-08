@@ -25,29 +25,27 @@ const Background = styled.div`
 
 const BG = styled.div`
   background: #000;
+  font-family: 'Mitr', tahoma;
 `
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <BG>
+        <Background className="container">
 
-        <Landing />
-        <BG>
-          <Background className="container">
-
-            <div className="card text-blue bg--blue" />
-            <h1 className="text-center">{hello} {bear}</h1>
+          <div className="card text-blue bg--blue" />
+          <h1 className="text-center">{hello} {bear}</h1>
 
 
 
+          <Landing />
 
 
 
 
-            <p><hastag /></p>
-            <p><hastag2 /></p>
-          </Background>
+          <p><hastag /></p>
+          <p><hastag2 /></p>
 
           <What />
 
@@ -57,10 +55,10 @@ class App extends Component {
 
           <Contact />
 
+        </Background>
         </BG>
-      </div>
-    );
-  }
-}
-
+        );
+      }
+    }
+    
 export default App;
