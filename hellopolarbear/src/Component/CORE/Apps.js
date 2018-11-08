@@ -23,26 +23,31 @@ const Background = styled.div`
     background: linear-gradient(#151516,#13191F ,#0D2339 ,#033362 ,#00376D ,#0C4B7D ,#297CA5 ,#347DA9 ,#5281B3 ,#8286C4 ,#8987C6 ,#F2F2F2 );
 `
 
-// const
+const BG = styled.div`
+  background: #000;
+`
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Background className="container">
 
-          <div className="card text-blue bg--blue" />
-          <h1 className="text-center">{hello} {bear}</h1>
+        <Landing />
+        <BG>
+          <Background className="container">
 
-
-
-          <Landing />
-
+            <div className="card text-blue bg--blue" />
+            <h1 className="text-center">{hello} {bear}</h1>
 
 
 
-          <p><hastag /></p>
-          <p><hastag2 /></p>
+
+
+
+
+            <p><hastag /></p>
+            <p><hastag2 /></p>
+          </Background>
 
           <What />
 
@@ -52,10 +57,10 @@ class App extends Component {
 
           <Contact />
 
-        </Background>
-        </div>
-        );
-      }
-    }
-    
+        </BG>
+      </div>
+    );
+  }
+}
+
 export default App;
