@@ -35,12 +35,10 @@ class App extends Component {
       <BG>
         <Background className="container">
 
+          <Landing />
+
           <div className="card text-blue bg--blue" />
           <h1 className="text-center">{hello} {bear}</h1>
-
-
-
-          <Landing />
 
 
 
@@ -49,6 +47,8 @@ class App extends Component {
           <p><hastag2 /></p>
 
           <What />
+
+          <img src="img/Group6.png" width="100" height="100" />
 
           <Who />
 
