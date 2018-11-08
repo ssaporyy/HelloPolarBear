@@ -27,6 +27,7 @@ const BG = styled.div`
   background: #000;
   font-family:  'Righteous','Mitr';
   text-align:center;
+  color : white;
 `
 
 class App extends Component {
