@@ -16,13 +16,20 @@ const world = `${hello} World`
 const hastag = `#${world} #PolarBear #HelloPolarBear `
 const hastag2 = `#HelloFrontEnd #HelloDesign #HelloGame #HelloInfra`
 
+const Background = styled.div`
+    width: 100vw;
+    height: 100%;
+    overflow-x: hidden; 
+    background: linear-gradient(#151516,#13191F ,#0D2339 ,#033362 ,#00376D ,#0C4B7D ,#297CA5 ,#347DA9 ,#5281B3 ,#8286C4 ,#8987C6 ,#F2F2F2 );
+`
+
 // const
 
 class App extends Component {
   render() {
     return (
       <div>
-        <div className="container bg-dark">
+        <Background className="container">
 
           <div className="card text-blue bg--blue" />
           <h1 className="text-center">{hello} {bear}</h1>
@@ -45,7 +52,7 @@ class App extends Component {
 
           <Contact />
 
-        </div>
+        </Background>
         </div>
         );
       }
