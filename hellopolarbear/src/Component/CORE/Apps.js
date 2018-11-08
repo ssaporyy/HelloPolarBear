@@ -25,7 +25,8 @@ const Background = styled.div`
 
 const BG = styled.div`
   background: #000;
-  font-family: 'Mitr', tahoma;
+  font-family: 'Mitr', tahoma; 
+  color : white;
 `
 
 class App extends Component {

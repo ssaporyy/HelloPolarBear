@@ -7,10 +7,10 @@ const NavBar = styled.nav`
 
 const Link = styled.a`
     color: #fff;
-    font-size: 20px;
-    margin: 10px;
+    font-size: 30px;
+    margin: 15px;
     &:hover{
-        color:#fff;
+        color:#000;
         text-decoration:none;
     }
 `
