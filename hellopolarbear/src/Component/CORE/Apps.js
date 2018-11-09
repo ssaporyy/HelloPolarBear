@@ -26,7 +26,7 @@ const Background = styled.div`
 
 const BG = styled.div`
   background: #000;
-  font-family:  'Righteous','Mitr';
+  font-family:  'Permanent Marker','Mitr';
   text-align:center;
   color : white;
 `
