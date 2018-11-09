@@ -7,12 +7,19 @@ const NavBar = styled.nav`
 
 const Link = styled.a`
     color: #fff;
-    font-size: 30px;
-    margin: 15px;
+    font-size: 20px;
+    margin: 10px;
     &:hover{
         color:#000;
         text-decoration:none;
     }
+`
+const Icon = styled.img`
+    width : 50px;
+    height : 50px;
+    margin: 10px;
+
+
 `
 
 
@@ -21,6 +28,7 @@ class Landing extends React.Component {
     render() {
         return (
             <NavBar class="nav nav-pills nav-fill">
+                <Icon img src="static/img/bears icon.png"></Icon>
                 <Link class="nav-item nav-link" href="#">
                     Home
                 </Link>
