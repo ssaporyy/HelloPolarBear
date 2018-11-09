@@ -8,10 +8,11 @@ import Contact from '../Contact';
 import Card from './Card'
 import Landing from '../landing';
 import styled from 'styled-components'
+import PolarBear from '../../PolarBear/PolarBear';
 
 
 const hello = `Hello`
-const bear = `PolarBear`
+const bear = `Polar Bear`
 const world = `${hello} World`
 const hastag = `#${world} #PolarBear #HelloPolarBear `
 const hastag2 = `#HelloFrontEnd #HelloDesign #HelloGame #HelloInfra`
@@ -39,9 +40,8 @@ class App extends Component {
           <Landing />
 
           <div className="card text-blue bg--blue" />
-          <h1 className="text-center">{hello} {bear}</h1>
 
-
+          <PolarBear/>
 
 
           <p><hastag /></p>
@@ -49,7 +49,6 @@ class App extends Component {
 
           <What />
 
-          <img src="img/Group6.png" width="100" height="100" />
 
           <Who />
 
