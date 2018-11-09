@@ -36,6 +36,7 @@ class App extends Component {
     return (
       <BG>
         <Background className="container">
+        
 
           <Landing />
 
