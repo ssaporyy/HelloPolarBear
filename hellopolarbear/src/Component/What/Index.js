@@ -1,6 +1,35 @@
 import React from 'react'
 import styled from 'styled-components'
 
+const Ice1 = styled.img`
+    width : 140px;
+    height : 140px;
+    margin : 20px;
+
+
+`
+const Ice2 = styled.img`
+    width : 140px;
+    height : 140px;
+    margin: 20px;
+
+
+`
+const Ice3 = styled.img`
+    width : 140px;
+    height : 140px;
+    margin: 20px;
+
+
+`
+const Ice4 = styled.img`
+    width : 140px;
+    height : 140px;
+    margin: 20px;
+
+
+`
+
 class What extends React.Component{
 
     render(){
@@ -12,16 +41,20 @@ class What extends React.Component{
             
                 
             <a href="#" class="alert-link">
-            <img src="static/img/group6.png" width="241" height="247" /></a>
+                <Ice1 img src="static/img/group6.png"></Ice1>
+            </a>
                 
             <a href="#" class="alert-link">
-            <img src="static/img/group7.png" width="241" height="247" /></a>
+                <Ice2 img src="static/img/group7.png" ></Ice2>
+            </a>
                 
             <a href="#" class="alert-link">
-            <img src="static/img/group5.png" width="241" height="247" /></a>
+                <Ice3 img src="static/img/group5.png"></Ice3>
+            </a>
                 
             <a href="#" class="alert-link">
-            <img src="static/img/group2.png" width="241" height="247" /></a>
+                <Ice4 img src="static/img/group2.png" ></Ice4>
+            </a>
                                 
 <p>ทีนี้น้องๆก็รู้แล้วใช่มั้ยว่าอยากเป็นหมีอะไร อย่าลืมสมัครกันเข้ามาแล้วเราจะร่วมตะลุยความหนาวไปด้วยกัน!!</p>
             </div>
