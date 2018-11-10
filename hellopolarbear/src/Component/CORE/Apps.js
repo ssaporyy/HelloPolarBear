@@ -36,31 +36,29 @@ class App extends Component {
     return (
       <BG>
         <Background className="container">
-        
-
-          <Landing />
-
-          <div className="card text-blue bg--blue" />
-
-          <PolarBear/>
-
-
-          <p><hastag /></p>
-          <p><hastag2 /></p>
-
-          <What />
-
-
-          <Who />
-
-          <Where />
-
-          <Contact />
-
+          <section>
+            <Landing />
+            <div className="card text-blue bg--blue" />
+            <PolarBear />
+            <p><hastag /></p>
+            <p><hastag2 /></p>
+          </section>
+          <section>
+            <What />
+          </section>
+          <section>
+            <Who  />
+          </section>
+          <section>
+            <Where />
+          </section>
+          <section>
+            <Contact />
+          </section>
         </Background>
-        </BG>
-        );
-      }
-    }
-    
+      </BG>
+    );
+  }
+}
+
 export default App;
