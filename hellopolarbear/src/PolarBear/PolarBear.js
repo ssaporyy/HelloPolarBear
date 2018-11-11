@@ -10,7 +10,7 @@ const Icon1 = styled.img`
 `
 
 const Name = styled.h1`
-font-weight: 200;
+    font-weight: 200;
     text-align:center;
     color : white;
     font-size: 100px;
