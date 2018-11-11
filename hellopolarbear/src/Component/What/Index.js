@@ -35,6 +35,10 @@ const Box = styled.div`
     background-color: rgba(146, 187, 230, 0.54);
     border: 0xp solid transparent;
     border-radius: 2em;
+<<<<<<< HEAD
+=======
+    margin-top: -70px;
+>>>>>>> 9368e0a0b68279198dfb9292e79560e32d4f2cc4
 `
 
 
