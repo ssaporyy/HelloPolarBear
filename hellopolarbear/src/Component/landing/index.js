@@ -8,7 +8,7 @@ const NavBar = styled.nav`
 
 const Link = styled.a`
     color: #fff;
-    font-size: 20px;
+    font-size: 25px;
     margin: 10px;
     &:hover{
         color:#000;
