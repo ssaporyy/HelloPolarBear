@@ -22,20 +22,24 @@ const Name1 = styled.h2`
     text-align:center;
     color : white;
     font-size: 90px;
-    margin: 50px;
-    marginTop: 20px;
+`
+
+const BG = styled.div`
+    background: url('static/img/stars.png');
+    background-size: 1200px;
 
 `
+
 
 class PolarBear extends React.Component{
 
     render(){
         return(
-        <div>
+        <BG>
             <Icon1 img src="static/img/bears icon.png" ></Icon1>
-                <Name h1 className="text-center">Hello World</Name>
-                <Name1 h2>Polar Bear</Name1>
-        </div>
+                <Name  className="text-center">Hello World</Name>
+                <Name1 className="text-center m-5">Polar Bear</Name1>
+        </BG>
         )
     }
 }
