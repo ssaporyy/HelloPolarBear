@@ -34,8 +34,17 @@ const Br =styled.div`
   margin: 1350px
 `
 const BrWhat =styled.div`
-  margin: 700px
+  margin: 1000px
+
 `
+const BrWho =styled.div`
+  margin: 100px
+`
+const NavBar = styled.nav`
+    background-color: #93e8fa ;
+    background-attachment: ;
+`
+
 class App extends Component {
   render() {
     return (
@@ -63,19 +72,27 @@ class App extends Component {
           </section>
           <section id="who">
             <Who  />
+            <BrWho className="mb">
+            </BrWho>
           </section>
           <section id="where"> 
             <Where />
+            <BrWhat className="mb">
+            </BrWhat>
           </section>
           <section id="contact">
             <Contact />
           </section>
+                    
           </Icon>
+          
          
          
           
           
       </BG>
+      
+     
       
     );
   }
