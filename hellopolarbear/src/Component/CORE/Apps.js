@@ -31,25 +31,6 @@ const BG = styled.div`
   color : white;
 `
 
-<<<<<<< HEAD
-const BG1 = styled.div`
-  background: url('static/img/bg1.png');
-    background-size: 10px;
-    width: 100vw;
-    height: 100%;
-    overflow-x: hidden; 
-    
-    
-    
-    
-
-    
-
-
-`
-
-=======
->>>>>>> 21fe784af5f9824264826e2b0fe2c4ad934b13c0
 class App extends Component {
   render() {
     return (
@@ -62,16 +43,7 @@ class App extends Component {
             <p><hastag /></p>
             <p><hastag2 /></p>
           </section>
-<<<<<<< HEAD
-        
-        
-        
-        
-          
-          <section>
-=======
           <section id="what">
->>>>>>> 21fe784af5f9824264826e2b0fe2c4ad934b13c0
             <What />
           </section>
           <section id="who">
