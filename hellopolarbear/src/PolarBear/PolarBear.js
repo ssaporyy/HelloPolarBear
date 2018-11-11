@@ -30,18 +30,6 @@ const BG = styled.div`
     background-repeat: no-repeat;
 `
 
-<<<<<<< HEAD
-
-class PolarBear extends React.Component{
-
-    render(){
-        return(
-        <BG>
-            <Icon1 img src="static/img/bears icon.png" ></Icon1>
-                <Name  className="text-center m-2">HELLO WORLD</Name>
-                <Name1 className="text-center m-5">Polar Bear</Name1>
-        </BG>
-=======
 class PolarBear extends React.Component {
 
     render() {
@@ -53,7 +41,6 @@ class PolarBear extends React.Component {
                     <Name1 className="text-center m-5">Polar Bear</Name1>
                 </BG>
             </div>
->>>>>>> 21fe784af5f9824264826e2b0fe2c4ad934b13c0
         )
     }
 }

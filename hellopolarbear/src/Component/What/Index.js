@@ -33,7 +33,7 @@ const Ice4 = styled.img`
 const What1 = styled.h1`
     color : white;
     font-size: 50px;
-    
+    margin: 50px;
 
 `
 
