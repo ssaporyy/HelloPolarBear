@@ -29,11 +29,13 @@ const Icon = styled.div`
   background-image:url("/static/img/bgall.png");
   background-size: cover;
   background-repeat: no-repeat;
-
-
-
 `
-
+const Br =styled.div`
+  margin: 1350px
+`
+const BrWhat =styled.div`
+  margin: 700px
+`
 class App extends Component {
   render() {
     return (
@@ -45,13 +47,19 @@ class App extends Component {
       
       
           <section id="home">
+          
             <div className="card text-blue bg--blue" />
             <PolarBear />
             <p><hastag /></p>
             <p><hastag2 /></p>
+            <Br className="mb">
+          </Br>
           </section>
+
           <section id="what">
             <What />
+            <BrWhat className="mb">
+          </BrWhat>
           </section>
           <section id="who">
             <Who  />
