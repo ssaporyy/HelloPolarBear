@@ -17,26 +17,33 @@ const world = `${hello} World`
 const hastag = `#${world} #PolarBear #HelloPolarBear `
 const hastag2 = `#HelloFrontEnd #HelloDesign #HelloGame #HelloInfra`
 
-const Background = styled.div`
-    width: 100vw;
-    height: 100%;
-    overflow-x: hidden; 
-    background: linear-gradient(#151516,#13191F ,#0D2339 ,#033362 ,#00376D ,#0C4B7D ,#297CA5 ,#347DA9 ,#5281B3 ,#8286C4 ,#8987C6 ,#F2F2F2 );
-`
+
 
 const BG = styled.div`
   background: #000;
   font-family:  'Mitr',tahoma;
   text-align:center;
   color : white;
+` 
+const Icon = styled.div`
+  background-image:url("/static/img/bgall.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+
 `
 
 class App extends Component {
   render() {
     return (
+      
       <BG>
+        <Icon>
+
       <Landing />
-        <Background className="container">
+      
+      
           <section id="home">
             <div className="card text-blue bg--blue" />
             <PolarBear />
@@ -55,8 +62,13 @@ class App extends Component {
           <section id="contact">
             <Contact />
           </section>
-          </Background>
+          </Icon>
+         
+         
+          
+          
       </BG>
+      
     );
   }
 }
