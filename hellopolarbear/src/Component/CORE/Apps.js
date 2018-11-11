@@ -31,41 +31,31 @@ const BG = styled.div`
   color : white;
 `
 
-const BG1 = styled.div`
-background: url('static/img/bg1.png');
-    background-size: 1200px;
-
-
-`
-
 class App extends Component {
   render() {
     return (
       <BG>
       <Landing />
         <Background className="container">
-          <section>
+          <section id="home">
             <div className="card text-blue bg--blue" />
             <PolarBear />
             <p><hastag /></p>
             <p><hastag2 /></p>
           </section>
-        </Background>
-        
-        
-          
-          <section>
+          <section id="what">
             <What />
           </section>
-          <section>
+          <section id="who">
             <Who  />
           </section>
-          <section>
+          <section id="where"> 
             <Where />
           </section>
-          <section>
+          <section id="contact">
             <Contact />
           </section>
+          </Background>
       </BG>
     );
   }
