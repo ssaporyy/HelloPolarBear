@@ -26,20 +26,21 @@ const Name1 = styled.h2`
 
 const BG = styled.div`
     background: url('static/img/stars.png');
-    background-size: 1200px;
-
+    background-size: cover;
+    background-repeat: no-repeat;
 `
 
+class PolarBear extends React.Component {
 
-class PolarBear extends React.Component{
-
-    render(){
-        return(
-        <BG>
-            <Icon1 img src="static/img/bears icon.png" ></Icon1>
-                <Name  className="text-center">Hello World</Name>
-                <Name1 className="text-center m-5">Polar Bear</Name1>
-        </BG>
+    render() {
+        return (
+            <div>
+                <BG>
+                    <Icon1 img src="static/img/bears icon.png" ></Icon1>
+                    <Name className="text-center">Hello World</Name>
+                    <Name1 className="text-center m-5">Polar Bear</Name1>
+                </BG>
+            </div>
         )
     }
 }
