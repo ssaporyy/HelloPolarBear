@@ -26,14 +26,23 @@ const Background = styled.div`
 
 const BG = styled.div`
   background: #000;
-  font-family:  'Permanent Marker','Mitr';
+  font-family:  'Mitr',tahoma;
   text-align:center;
   color : white;
 `
 
 const BG1 = styled.div`
-background: url('static/img/bg1.png');
-    background-size: 1200px;
+  background: url('static/img/bg1.png');
+    background-size: 10px;
+    width: 100vw;
+    height: 100%;
+    overflow-x: hidden; 
+    
+    
+    
+    
+
+    
 
 
 `
@@ -50,7 +59,8 @@ class App extends Component {
             <p><hastag /></p>
             <p><hastag2 /></p>
           </section>
-        </Background>
+        
+        
         
         
           
@@ -66,6 +76,7 @@ class App extends Component {
           <section>
             <Contact />
           </section>
+          </Background>
       </BG>
     );
   }
