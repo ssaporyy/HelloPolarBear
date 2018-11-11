@@ -23,6 +23,21 @@ const Name1 = styled.h2`
     font-weight: 400;
 
 `
+const Name2 = styled.p`
+    font-weight: 200;
+    text-align:center;
+    color : white;
+    font-size: 30px;
+
+`
+
+const Name3 = styled.p`
+    text-align:center;
+    color : white;
+    font-size: 30px;
+    font-weight: 400;
+
+`
 
 const BG = styled.div`
     background: url('static/img/stars.png');
@@ -38,8 +53,11 @@ class PolarBear extends React.Component {
             <div>
                 <BG>
                     <Icon1 img src="static/img/bears icon.png" ></Icon1>
-                    <Name className="text-center">Hello World</Name>
-                    <Name1 className="text-center m-5">Polar Bear</Name1>
+                    <Name className="text-center">HELLO WORLD</Name>
+                    <Name1 className="text-center m-1">Polar Bear</Name1>
+                    <Name2 className="text-center mb-5"> Break your limit<Name3 className="text-center">pratice</Name3></Name2>
+                    <Name2 className="text-center mb-5">your skill</Name2>
+
                 </BG>
             </div>
         )
