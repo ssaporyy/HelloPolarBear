@@ -39,6 +39,9 @@ class Landing extends React.Component {
                 <Link className="nav-item nav-link" href="#who">
                     Who
                 </Link>
+                <Link className="nav-item nav-link" href="#where">
+                    Where
+                </Link>
                 <Link className="nav-item nav-link" href="#contact">
                     Contact
                 </Link>
