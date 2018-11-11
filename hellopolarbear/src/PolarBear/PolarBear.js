@@ -4,24 +4,24 @@ import styled from 'styled-components'
 const Icon1 = styled.img`
     width : 250px;
     height : 250px;
-    margin: 50px;
+    margin: 30px;
 
 
 `
 
 const Name = styled.h1`
-    //font-family: 'Shadows Into Light', cursive;
-    font-family: 'Permanent Marker', cursive;
+font-weight: 200;
     text-align:center;
     color : white;
-    font-size: 90px;
+    font-size: 100px;
 `
 
 const Name1 = styled.h2`
-    font-family: 'Kalam', cursive;
     text-align:center;
     color : white;
     font-size: 90px;
+    font-weight: 400;
+
 `
 
 const BG = styled.div`
@@ -37,7 +37,7 @@ class PolarBear extends React.Component{
         return(
         <BG>
             <Icon1 img src="static/img/bears icon.png" ></Icon1>
-                <Name  className="text-center">Hello World</Name>
+                <Name  className="text-center m-2">HELLO WORLD</Name>
                 <Name1 className="text-center m-5">Polar Bear</Name1>
         </BG>
         )
