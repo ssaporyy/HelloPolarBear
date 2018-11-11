@@ -31,10 +31,10 @@ const Icon = styled.div`
   background-repeat: no-repeat;
 `
 const Br =styled.div`
-  margin: 1650px
+  margin: 1400px
 `
 const BrWhat =styled.div`
-  margin: 900px
+  margin: 730px
 
 `
 const BrWho =styled.div`
