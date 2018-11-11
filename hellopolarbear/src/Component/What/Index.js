@@ -35,11 +35,6 @@ const Box = styled.div`
     background-color: rgba(146, 187, 230, 0.54);
     border: 0xp solid transparent;
     border-radius: 2em;
-`
-const Box = styled.div`
-    background-color: rgba(146, 187, 230, 0.54);
-    border: 0xp solid transparent;
-    border-radius: 2em;
     margin-top: -70px;
 `
 
@@ -55,7 +50,7 @@ class What extends React.Component {
                     <div className="col-2" />
                     <div className="col-12">
                         <Box className="mb-2 p-2">
-                            <What1><h1>ค่ายนี้มีอะไรบ้าง?</h1></What1>
+                            <h1>ค่ายนี้มีอะไรบ้าง?</h1>
                             <p>Hello PorlarBear คือ ค่ายที่จะพามาเจาะลึกชีวิตชาวหมีอย่างพวกเรา นอกจากความรู้และประสบการณ์ด้านไอทีที่น้องจะได้รับ</p>
                             <p> น้อง ๆ จะได้มีโอกาสสัมผัสชีวิตของการเป็นนักไอทีอย่างแท้จริง มีร่วมสร้างโปรเจ็คที่ยิ่งใหญ่ไปด้วยกัน</p>
                             <p>ณ คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี</p>
