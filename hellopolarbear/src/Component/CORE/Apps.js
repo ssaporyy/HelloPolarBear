@@ -31,19 +31,16 @@ const Icon = styled.div`
   background-repeat: no-repeat;
 `
 const Br =styled.div`
-  margin: 1350px
+  margin: 1650px
 `
 const BrWhat =styled.div`
-  margin: 1000px
+  margin: 900px
 
 `
 const BrWho =styled.div`
-  margin: 100px
+  margin: 50px
 `
-const NavBar = styled.nav`
-    background-color: #93e8fa ;
-    background-attachment: ;
-`
+
 
 class App extends Component {
   render() {
