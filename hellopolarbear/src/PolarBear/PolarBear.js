@@ -31,9 +31,7 @@ const Name2 = styled.p`
 
 `
 
-const Name3 = styled.p`
-    font-weight: 500px;
-`
+
 
 const BG = styled.div`
     background: url('static/img/stars.png');
