@@ -44,7 +44,6 @@ const Box = styled.div`
 `
 
 
-<<<<<<< HEAD
 class What extends React.Component {
 
 
@@ -61,30 +60,10 @@ class What extends React.Component {
                             <p> น้อง ๆ จะได้มีโอกาสสัมผัสชีวิตของการเป็นนักไอทีอย่างแท้จริง มีร่วมสร้างโปรเจ็คที่ยิ่งใหญ่ไปด้วยกัน</p>
                             <p>ณ คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี</p>
                             <p>อากาศหนาวแบบนี้เรามาอยู่รวมกันดีมั้ย เอาล่ะ!! เรามาดูกันเลยดีกว่าว่าจะมีหมีชนิดไหนให้น้องๆได้ร่วมทีมบ้าง</p>
-=======
-class What extends React.Component{
-    
-
-    render(){
-        return(
-            <div className="container mb-8">
-                <div className="row mb-5">
-                    <div className="col-1" />
-                    <div className="col-13 mb-5">
-                        <h1>ค่ายนี้เกี่ยวกับอะไร?</h1>
-                        
-                        
-                        <Box className="mb-12 p-5">
-                            <p className="mt-5 mb-3">Hello PorlarBear คือ ค่ายที่จะพามาเจาะลึกชีวิตชาวหมีอย่างพวกเรา นอกจากความรู้และประสบการณ์ด้านไอทีที่น้องจะได้รับ น้อง ๆ</p>
-                            <p className="my-3 "> จะได้มีโอกาสสัมผัสชีวิตของการเป็นนักไอทีอย่างแท้จริง มีร่วมสร้างโปรเจ็คที่ยิ่งใหญ่ไปด้วยกัน ณ คณะเทคโนโลยีสารสนเทศ </p>
-                            <p className="mt-3">มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี สวัสดีหมีขั้วโลกตัวน้อย อากาศหนาวแบบนี้เรามาอยู่รวมกันดีมั้ย เอาล่ะ!!</p>
-                            <p className="mb-3">เรามาดูกันเลยดีกว่าว่าจะมีหมีชนิดไหนให้น้องๆได้ร่วมทีมบ้าง</p>
->>>>>>> 8a52acb493c3bdf3a72f6198ab6c85c1b4858890
                         </Box>
                     </div>
                     <div className="col-2" />
                 </div>
-<<<<<<< HEAD
                 <div class="row">
                     <div class="col-6">
                         <Ice1 img src="static/img/group6.png"></Ice1>
@@ -100,30 +79,6 @@ class What extends React.Component{
                         </Ice>
                     </div>
                 </div>
-=======
-            
-               
-           
-            
-        <div class="row">
-            <div class="col-6">
-                <Ice1 img src="static/img/group6.png"></Ice1>
-            <Ice className="my-60">
-                <Ice2 img src="static/img/group5.png" ></Ice2>
-            </Ice>
-            </div>     
-
-            <div class="col-6">
-                <Ice1 img src="static/img/group7.png"></Ice1>
-                <Ice className="my-60">
-                <Ice2 img src="static/img/group2.png" ></Ice2>
-            </Ice>
-            </div>
-        </div>
-              
-                                
-<p>ทีนี้น้องๆก็รู้แล้วใช่มั้ยว่าอยากเป็นหมีอะไร อย่าลืมสมัครกันเข้ามาแล้วเราจะร่วมตะลุยความหนาวไปด้วยกัน!!</p>
->>>>>>> 8a52acb493c3bdf3a72f6198ab6c85c1b4858890
             </div>
         )
     }
