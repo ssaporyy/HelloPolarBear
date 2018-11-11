@@ -38,7 +38,7 @@ class PolarBear extends React.Component {
             <div>
                 <BG>
                     <Icon1 img src="static/img/bears icon.png" ></Icon1>
-                    <Name className="text-center">Hello World</Name>
+                    <Name className="text-center">HELLO WORLD</Name>
                     <Name1 className="text-center m-5">Polar Bear</Name1>
                 </BG>
             </div>
