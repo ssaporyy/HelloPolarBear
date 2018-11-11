@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 const NavBar = styled.nav`
     background-color: #93e8fa ;
+    background-attachment: ;
 `
 
 const Link = styled.a`
@@ -27,21 +28,18 @@ class Landing extends React.Component {
 
     render() {
         return (
-            <NavBar class="nav nav-pills nav-fill">
+            <NavBar className="nav nav-pills nav-fill sticky-top">
                 <Icon img src="static/img/bears icon.png"></Icon>
-                <Link class="nav-item nav-link" href="#">
+                <Link className="nav-item nav-link" href="#home">
                     Home
                 </Link>
-                <Link class="nav-item nav-link" href="#">
+                <Link className="nav-item nav-link" href="#what">
                     What
                 </Link>
-                <Link class="nav-item nav-link" href="#">
+                <Link className="nav-item nav-link" href="#who">
                     Who
                 </Link>
-                <Link class="nav-item nav-link" href="#">
-                    When
-                </Link>
-                <Link class="nav-item nav-link" href="#">
+                <Link className="nav-item nav-link" href="#contact">
                     Contact
                 </Link>
             </NavBar>

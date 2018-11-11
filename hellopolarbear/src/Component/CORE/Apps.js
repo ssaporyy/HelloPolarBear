@@ -31,6 +31,7 @@ const BG = styled.div`
   color : white;
 `
 
+<<<<<<< HEAD
 const BG1 = styled.div`
   background: url('static/img/bg1.png');
     background-size: 10px;
@@ -47,33 +48,39 @@ const BG1 = styled.div`
 
 `
 
+=======
+>>>>>>> 21fe784af5f9824264826e2b0fe2c4ad934b13c0
 class App extends Component {
   render() {
     return (
       <BG>
       <Landing />
         <Background className="container">
-          <section>
+          <section id="home">
             <div className="card text-blue bg--blue" />
             <PolarBear />
             <p><hastag /></p>
             <p><hastag2 /></p>
           </section>
+<<<<<<< HEAD
         
         
         
         
           
           <section>
+=======
+          <section id="what">
+>>>>>>> 21fe784af5f9824264826e2b0fe2c4ad934b13c0
             <What />
           </section>
-          <section>
+          <section id="who">
             <Who  />
           </section>
-          <section>
+          <section id="where"> 
             <Where />
           </section>
-          <section>
+          <section id="contact">
             <Contact />
           </section>
           </Background>
