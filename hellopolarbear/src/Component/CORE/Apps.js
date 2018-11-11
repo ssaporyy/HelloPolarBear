@@ -26,7 +26,7 @@ const BG = styled.div`
   color : white;
 ` 
 const Icon = styled.div`
-  background-image:url("/static/img/bgall.png");
+  background:url("/static/img/bgeiei.png");
   background-size: cover;
   background-repeat: no-repeat;
 `
