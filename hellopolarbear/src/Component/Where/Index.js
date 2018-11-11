@@ -7,10 +7,6 @@ const Direct = styled.img`
 
 `
 
-
-
-
-
 class Where extends React.Component{
 
     render(){
@@ -18,7 +14,7 @@ class Where extends React.Component{
             <div className="my-5">
                 <h1>ค่ายนี้จัดที่ไหน?</h1> 
                 <Direct className="m-5" src="static/img/Vector.png" />
-                <br></br><img src="static/img/image.png" width="913" height="637"/>
+                <img src="static/img/image.png" width="700" height="424"/>
                 <p>คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี</p>
             </div>
         )
