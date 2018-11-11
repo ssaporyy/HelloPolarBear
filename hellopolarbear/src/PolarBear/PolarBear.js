@@ -26,8 +26,9 @@ const Name1 = styled.h2`
 
 const BG = styled.div`
     background: url('static/img/stars.png');
-    background-size: cover;
+    background-size: 1200px;
     background-repeat: no-repeat;
+    background-position:center;
 `
 
 class PolarBear extends React.Component {
