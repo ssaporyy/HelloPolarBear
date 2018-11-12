@@ -30,14 +30,13 @@ const Content = styled.div`
 `
 
 
-
 class What extends React.Component {
     state = {
-        front: "สู่เส้นทางการเตรียมความพร้อมในการเป็น Front-End Developers เหล่าหมีขั้วโลกทั้งหลายได้ทะยานเข้าสู่ Git Commandดื่มด่ำการเขียน React.js ฝึกฝนพัฒนาการในด้านศาสตร์และศิลป์ในการตกแต่งเว็บด้วย styled-components Boostrap อย่าช้า มาผจญภัยกันเถอะ",
-        design: `เหล่าหมีขั้วโลกตัวน้อยนักออกแบบ จะได้สรรค์สร้างเว็บไซต์สุดล้ำ นำเทรนด์ และตอบสนองต่อความต้องการของผู้ใช้งาน สร้างเอกลักษณ์ของเว็บไซต์ด้วยเครื่องมือสุดทันสมัย อย่าง Adobe Illustrator และ Figma ที่จะทำให้ผู้ใช้งานจดจำเว็บไซต์ของเราและอุทานออกมาว่า “สวยอ่าาาาาา~~~~~~”`,
-        game: "ความลับของดินแดนอันหนาวเหน็บใต้สุดของเทือกเขาหิมาลัย ซึ่งเป็นแหล่งบ่มเพาะความรู้ทั้ง 4 แขนง ได้แก่ Game Designการออกแบบเกมอันเป็นหัวใจหลักของความสนุก, Graphic Design Game การออกแบบภาพอาร์ตภายในเกมอันน่าหลงไหล, Sound เสียงประกอบชวนคล้อยใจและเครื่องมือที่เราจะดึงทั้ง 3 ศาสตร์นั้นเข้าด้วยกัน Phaser 3 นั่นเอง",
-        infra: "ตะลุย Linux Command ผสมผสานพลังหยินหยางให้ Nginx ทะยาน Web ด้วยใจเหล็กกล้าผ่านนภาไปสู่ Server",
-        change: "สู่เส้นทางการเตรียมความพร้อมในการเป็น Front-End Developers เหล่าหมีขั้วโลกทั้งหลายได้ทะยานเข้าสู่ Git Commandดื่มด่ำการเขียน React.js ฝึกฝนพัฒนาการในด้านศาสตร์และศิลป์ในการตกแต่งเว็บด้วย styled-components Boostrap อย่าช้า มาผจญภัยกันเถอะ"
+        front: "Front-End PolarBear : สู่เส้นทางการเตรียมความพร้อมในการเป็น Front-End Developers เหล่าหมีขั้วโลกทั้งหลายได้ทะยานเข้าสู่ Git Commandดื่มด่ำการเขียน React.js ฝึกฝนพัฒนาการในด้านศาสตร์และศิลป์ในการตกแต่งเว็บด้วย styled-components Boostrap อย่าช้า มาผจญภัยกันเถอะ",
+        design: `Design PolarBear : เหล่าหมีขั้วโลกตัวน้อยนักออกแบบ จะได้สรรค์สร้างเว็บไซต์สุดล้ำ นำเทรนด์ และตอบสนองต่อความต้องการของผู้ใช้งาน สร้างเอกลักษณ์ของเว็บไซต์ด้วยเครื่องมือสุดทันสมัย อย่าง Adobe Illustrator และ Figma ที่จะทำให้ผู้ใช้งานจดจำเว็บไซต์ของเราและอุทานออกมาว่า “สวยอ่าาาาาา~~~~~~”`,
+        game: "Game PolarBear : ความลับของดินแดนอันหนาวเหน็บใต้สุดของเทือกเขาหิมาลัย ซึ่งเป็นแหล่งบ่มเพาะความรู้ทั้ง 4 แขนง ได้แก่ Game Designการออกแบบเกมอันเป็นหัวใจหลักของความสนุก, Graphic Design Game การออกแบบภาพอาร์ตภายในเกมอันน่าหลงไหล, Sound เสียงประกอบชวนคล้อยใจและเครื่องมือที่เราจะดึงทั้ง 3 ศาสตร์นั้นเข้าด้วยกัน Phaser 3 นั่นเอง",
+        infra: "Infra PolarBear : ตะลุย Linux Command ผสมผสานพลังหยินหยางให้ Nginx ทะยาน Web ด้วยใจเหล็กกล้าผ่านนภาไปสู่ Server",
+        change: "เอาล่ะ!! เรามาดูกันเลยดีกว่าว่าจะมีหมีชนิดไหนให้น้องๆได้ร่วมทีมบ้าง"
     }
 
     toggleF = () => {
@@ -64,19 +63,18 @@ class What extends React.Component {
                             <h1>ค่ายนี้มีอะไรบ้าง?</h1>
                             <p>Hello PorlarBear คือ ค่ายที่จะพามาเจาะลึกชีวิตชาวหมีอย่างพวกเรา นอกจากความรู้และประสบการณ์ด้านไอทีที่น้องจะได้รับ</p>
                             <p> น้อง ๆ จะได้มีโอกาสสัมผัสชีวิตของการเป็นนักไอทีอย่างแท้จริง มีร่วมสร้างโปรเจ็คที่ยิ่งใหญ่ไปด้วยกัน</p>
-                            <p>ณ คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี</p>
-                            <p>อากาศหนาวแบบนี้เรามาอยู่รวมกันดีมั้ย เอาล่ะ!! เรามาดูกันเลยดีกว่าว่าจะมีหมีชนิดไหนให้น้องๆได้ร่วมทีมบ้าง</p>
+                            <p>ณ คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี อากาศหนาวแบบนี้เรามาอยู่รวมกันดีมั้ย </p>
                         </Box>
                     </div>
                     <div className="col-2" />
                 </div>
                 <div className="row">
                     <div className="col-3">
-                        <Ice1 img src="static/img/group6.png" onClick={() => this.toggleF()}>
+                        <Ice1 img src="static/img/group6.png" onMouseOver={() => this.toggleF()}>
 
                         </Ice1>
                         <Ice className="my-5">
-                            <Ice1 img src="static/img/group5.png" onClick={() => this.toggleG()}></Ice1>
+                            <Ice1 img src="static/img/group5.png" onMouseOver={() => this.toggleG()}></Ice1>
                         </Ice>
                     </div>
                     <div className="col-6 my-5">
@@ -86,9 +84,9 @@ class What extends React.Component {
                     </div>
 
                     <div className="col-3">
-                        <Ice1 img src="static/img/group7.png" onClick={() => this.toggleD()}></Ice1>
+                        <Ice1 img src="static/img/group7.png" onMouseOver={() => this.toggleD()}></Ice1>
                         <Ice className="my-60">
-                            <Ice1 img src="static/img/group2.png" onClick={() => this.toggleI()} ></Ice1>
+                            <Ice1 img src="static/img/group2.png" onMouseOver={() => this.toggleI()} ></Ice1>
                         </Ice>
                     </div>
                 </div>

@@ -14,7 +14,7 @@ const Map = styled.img`
 `
 
 const Ms = styled.p`
-    font-size:40px;
+    font-size:30px;
 
 `
 const Pp = styled.img`
@@ -22,20 +22,15 @@ const Pp = styled.img`
     height: 150px;
 
 `
-
-
-
-
-
 class Where extends React.Component{
 
     render(){
         return(
             <div className="my-5">
                 <h1>ค่ายนี้จัดที่ไหน?</h1> 
-                <Direct className="m-5" src="static/img/Vector.png" />
                 <br></br><Map src="static/img/image.png" width="913" height="637"/>
-                <Ms>คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี</Ms>
+                <Ms>คณะเทคโนโลยีสารสนเทศ</Ms> 
+                    <Ms>มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี</Ms>
                 <Pp src="static/img/Passport.png"/>
 
             </div>

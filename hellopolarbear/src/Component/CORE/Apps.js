@@ -31,14 +31,17 @@ const Icon = styled.div`
   background-repeat: no-repeat;
 `
 const Br =styled.div`
-  margin: 1550px
+  margin: 1400px
 `
 const BrWhat =styled.div`
-  margin: 1000px
+  margin: 700px
 
 `
 const BrWho =styled.div`
-  margin: 120px
+  margin: 500px
+`
+const BrWhere =styled.div`
+  margin: 500px
 `
 
 
@@ -74,8 +77,8 @@ class App extends Component {
           </section>
           <section id="where"> 
             <Where />
-            <BrWhat className="mb">
-            </BrWhat>
+            <BrWhere className="mb">
+            </BrWhere>
           </section>
           <section id="contact">
             <Contact />
