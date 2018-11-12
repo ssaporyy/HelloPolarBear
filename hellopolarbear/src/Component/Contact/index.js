@@ -2,8 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Face = styled.img`
-    width: ;
-    height: ;
+    width: 130px;
+    height:40px ;
+    margin: 20px;
 
 `
 
@@ -29,6 +30,7 @@ class Contact extends React.Component{
         return(
             <div>
                 <h1>Contact</h1>
+                <Face src="static/img/Alchemist.png"></Face>
                 <NavBar className="nav nav-pills nav-fill ">
                 
                 <Link className="nav-item" >
